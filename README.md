@@ -1,10 +1,11 @@
 # width-auto-overflow
+
 div宽度不确定，超出...
+
+最好不要设置高度，设置line-height既可
 
 ```css
     .main{
-        color: #333;
-        font-weight: normal;
         overflow: hidden;
         text-overflow: ellipsis;
         display: -webkit-box;
